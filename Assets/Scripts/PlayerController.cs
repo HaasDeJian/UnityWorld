@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnFire()
     {
+        Debug.Log("FIRE");
         // Cast a ray from the mouse position
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
